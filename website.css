@@ -4,16 +4,17 @@ header {
   background: url("http://neuschwansteincastle.net/wp-content/uploads/2015/04/Neuschwanstein-castle.jpg");
   background-size: cover;
   height: 300px;
-  color: #ECE0F8;
-  font-family: helvetica;
+
 } 
 header .headertext {
+  position: fixed;
+  left: 200px;
+  color: #ECE0F8;
   font-size: 60px;
   font-family: helvetica;
   font-style: bold;
-  position: absolute;
   margin-top: 230px;
-  text-align: center;
+
 }
 h1 {
   font-size: 50px;
