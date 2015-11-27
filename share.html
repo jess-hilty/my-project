@@ -3,8 +3,27 @@
   <head>
       <title>
 Share
-  	</title>
+    </title>
 <link rel="stylesheet" type="text/css" href="website.css">
+<style>
+form {
+  max-width: 900px;
+  max-height: 800px;
+  border-color: #0B1722;
+}
+#add{
+  font-family: helvetica;
+  font-size: 20px;
+  text-align: center;
+  color: #ECE0F8;
+}
+span {
+  font-family: helvetica;
+  font-size: 15px;
+  text-align: center;
+  color: #ECE0F8;
+}
+</style>
 </head>
 <body bgcolor="#0B1722" text="#ECE0F8">
 <header>
@@ -22,17 +41,26 @@ Share Your Experience
   </ul>
 </nav>
 <br><br>
-<form method='post'>
-  NAME: <input type='text' name='name' id='name' /><br />
+<br> <br>
+<form>
+<div>
+<div id="add">Add a comment:</div>
+<br>
+<label>
+<span>Your name</span><input id="name" type="text" name="name" />
+</label>
 
-  Email: <input type='text' name='email' id='email' /><br />
+<label>
+<span>Subject</span><input id="subject" type="text" name="subject" />
+</label>
 
-  Comment:<br />
-  <textarea name='comment' id='comment'></textarea><br />
+<label>
+<span>Message</span><textarea id="feedback"  name="feedback"></textarea>
+<input type="button" value="Submit Form" />
+</label>
 
-  <input type='hidden' name='articleid' id='articleid' value='<? echo $_GET["id"]; ?>' />
-
-  <input type='submit' value='Submit' />  
+</div>
 </form>
+
 </body>
 </html>
