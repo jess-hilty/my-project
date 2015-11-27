@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 header {
   vertical-align: bottom;
   background: url("http://neuschwansteincastle.net/wp-content/uploads/2015/04/Neuschwanstein-castle.jpg");
@@ -7,30 +6,13 @@ header {
   height: 300px;
 } 
 header .headertext {
-  position: fixed;
-  left: 300px;
+  position: absolute;
+  text-align: center;
   color: #ECE0F8;
   font-size: 60px;
   font-family: helvetica;
   font-style: bold;
   margin-top: 230px;
->>>>>>> origin/master
-
-header {  
-    vertical-align: bottom;
-    text-align: center;
-    background: url("http://neuschwansteincastle.net/wp-content/uploads/2015/04/Neuschwanstein-castle.jpg");
-    background-size: cover;
-    background-position: fixed;
-    height: 300px;
-    color: #ECE0F8;
-    font-size: 70px;
-}
-.headertext {
-  position: absolute;
-  padding-top: 220px;
-  
-}
 }
 h2 {
   text-align: center;
@@ -70,6 +52,7 @@ a:hover, a:active {
     background-color: #ffffff;
     color: #000000;
 }
+
 p {
   color: rgba(255,255,255,1);
   background-color: rgba(0,0,0,1);
