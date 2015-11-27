@@ -1,34 +1,27 @@
+
 header {
-  text-align: center;
   vertical-align: bottom;
   background: url("http://neuschwansteincastle.net/wp-content/uploads/2015/04/Neuschwanstein-castle.jpg");
   background-size: cover;
   height: 300px;
-  color: #ECE0F8;
-  font-family: helvetica;
 } 
 header .headertext {
+  position: absolute;
+  text-align: center;
+  color: #ECE0F8;
   font-size: 60px;
   font-family: helvetica;
   font-style: bold;
-  position: absolute;
   margin-top: 230px;
-  text-align: center;
-}
-h1 {
-  font-size: 50px;
-  padding-bottom: 20px;
 }
 h2 {
+  text-align: center;
   font-family: helvetica;
   font-size: 20px;
 }
-img {
-  margin: 40px 0px 0px 0px;
-  border: 7px solid white;
-  border-radius: 20px;
-}
+
 p {
+  text-align: center;
   font-size: 20px;
   font-family: helvetica;
 }
@@ -38,8 +31,9 @@ ul {
   padding: 0;
 }
 li {
+  display: inline;
   float: left;
-  padding: 0px 4px 4px 4px;
+  padding: 4px 4px 10px 4px;
 }
 a:link, a:visited {
     display: block;
@@ -58,12 +52,81 @@ a:hover, a:active {
     background-color: #ffffff;
     color: #000000;
 }
+
 p {
   color: rgba(255,255,255,1);
   background-color: rgba(0,0,0,1);
   padding: 10px;
   text-align: justify;
   line-height: 28px;
+}
+form    {
+background: -webkit-gradient(linear, bottom, left 175px, from(#CCCCCC), to(#EEEEEE));
+background: -moz-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+margin:auto;
+position:relative;
+width:800px;
+height:300px;
+font-family: Tahoma, Geneva, sans-serif;
+font-size: 14px;
+font-style: italic;
+line-height: 24px;
+font-weight: bold;
+color: #09C;
+text-decoration: none;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+padding:10px;
+border: 1px solid #999;
+border: inset 1px solid #333;
+-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+form #feedback {
+  padding-top: 10px;
+}
+.formheader {
+  font-size: 35px;
+  text-align: center;
+}
+input  {
+width:375px;
+display:block;
+border: 1px solid #999;
+height: 25px;
+-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
 
+textarea#feedback {
+width:375px;
+height:150px;
+}
+
+textarea.message {
+display:block;
+}
+
+input.button {
+width:100px;
+position:absolute;
+right:20px;
+bottom:20px;
+background:#09C;
+color:#fff;
+font-family: Tahoma, Geneva, sans-serif;
+height:30px;
+border-radius: 15px;
+border-radius: 15px;
+border-radius: 15px;
+border: 1p solid #999;
+}
+input .button:hover .button:active {
+background:#fff;
+color:#09C;
+}
 
 
