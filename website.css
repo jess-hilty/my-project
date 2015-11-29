@@ -14,6 +14,12 @@ header .headertext {
   font-style: bold;
   margin-top: 230px;
 }
+
+h1 {
+  font-family: helvetica;
+  font-size: 20px;
+  color: #ECE0F8;
+}
 h2 {
   text-align: center;
   font-family: helvetica;
@@ -47,7 +53,12 @@ a:link, a:visited {
     text-transform: uppercase;
     border-radius: 12px;
 }
-
+a .link2 {
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  padding: 4px;
+}
 a:hover, a:active {
     background-color: #ffffff;
     color: #000000;
@@ -60,13 +71,34 @@ p {
   text-align: justify;
   line-height: 28px;
 }
+
+#clnpic {
+  max-height: 200px;
+}
+#ddorfpic {
+  max-height: 200px
+}
+#karneval {
+  max-width: 200px;
+}
+#market {
+  max-width: 200px;
+}
+#shopping {
+  max-width: 200px;
+}
+#out {
+max-width: 200px;
+}
+
 form    {
 background: -webkit-gradient(linear, bottom, left 175px, from(#CCCCCC), to(#EEEEEE));
 background: -moz-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
 margin:auto;
 position:relative;
-width:800px;
-height:300px;
+max-width:900px;
+max-height:800px;
+border-color: #0B1722;
 font-family: Tahoma, Geneva, sans-serif;
 font-size: 14px;
 font-style: italic;
@@ -78,18 +110,30 @@ text-decoration: none;
 -moz-border-radius: 10px;
 border-radius: 10px;
 padding:10px;
-border: 1px solid #999;
 border: inset 1px solid #333;
 -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
 -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
 box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
 }
-form #feedback {
+ #feedback {
+    min-width: 900px;
   padding-top: 10px;
 }
 .formheader {
   font-size: 35px;
   text-align: center;
+}
+form #add{
+  font-family: helvetica;
+  font-size: 20px;
+  text-align: center;
+  color: #ECE0F8;
+}
+form span {
+  font-family: helvetica;
+  font-size: 15px;
+  text-align: center;
+  color: #ECE0F8;
 }
 input  {
 width:375px;
