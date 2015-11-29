@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -5,27 +6,10 @@
 Share
     </title>
 <link rel="stylesheet" type="text/css" href="website.css">
-<style>
-form {
-  max-width: 900px;
-  max-height: 800px;
-  border-color: #0B1722;
-}
-#add{
-  font-family: helvetica;
-  font-size: 20px;
-  text-align: center;
-  color: #ECE0F8;
-}
-span {
-  font-family: helvetica;
-  font-size: 15px;
-  text-align: center;
-  color: #ECE0F8;
-}
-</style>
+</head>
 </head>
 <body bgcolor="#0B1722" text="#ECE0F8">
+  
 <header>
       <div class="headertext">
         Share Your Experience
@@ -42,25 +26,23 @@ span {
 </nav>
 <br><br>
 <br> <br>
-<form>
+
+<form action="myform.html" method="post">
 <div>
 <div id="add">Add a comment:</div>
 <br>
 <label>
-<span>Your name</span><input id="name" type="text" name="name" />
+<span>Name:</span><input id="name" type="text" name="name" maxlength="50" value="Your name"/>
 </label>
-
+<br>
 <label>
-<span>Subject</span><input id="subject" type="text" name="subject" />
+<span>Subject:</span><input id="subject" type="text" name="subject" maxlength="50" value="Subject"/>
 </label>
-
+<br>
 <label>
-<span>Message</span><textarea id="feedback"  name="feedback"></textarea>
-<input type="button" value="Submit Form" />
-</label>
-
+<span>Comment:</span><textarea id="feedback"  name="feedback" value="Please enter your comment here"></textarea>
+</label><br>
+<input type="submit" name="submit" value="Submit" />
 </div>
 </form>
 
-</body>
-</html>
